@@ -17,7 +17,7 @@ function App() {
 
   return (
     <Fragment>
-      <Cart />
+      {cartIsShown && <Cart />}
       <Header />
       <main>
         <Meals />
